@@ -1,0 +1,16 @@
+C:\Users\Hp\source\repos\Nadir_Kitap\Nadir_Kitap\bin\Debug\netstandard2.0\Nadir_Kitap.deps.json
+C:\Users\Hp\source\repos\Nadir_Kitap\Nadir_Kitap\bin\Debug\netstandard2.0\Nadir_Kitap.dll
+C:\Users\Hp\source\repos\Nadir_Kitap\Nadir_Kitap\bin\Debug\netstandard2.0\Nadir_Kitap.pdb
+C:\Users\Hp\source\repos\Nadir_Kitap\Nadir_Kitap\obj\Debug\netstandard2.0\Nadir_Kitap.csproj.AssemblyReference.cache
+C:\Users\Hp\source\repos\Nadir_Kitap\Nadir_Kitap\obj\Debug\netstandard2.0\Nadir_Kitap.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Hp\source\repos\Nadir_Kitap\Nadir_Kitap\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Hp\source\repos\Nadir_Kitap\Nadir_Kitap\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\Hp\source\repos\Nadir_Kitap\Nadir_Kitap\obj\Debug\netstandard2.0\Nadir_Kitap.AssemblyInfoInputs.cache
+C:\Users\Hp\source\repos\Nadir_Kitap\Nadir_Kitap\obj\Debug\netstandard2.0\Nadir_Kitap.AssemblyInfo.cs
+C:\Users\Hp\source\repos\Nadir_Kitap\Nadir_Kitap\obj\Debug\netstandard2.0\Nadir_Kitap.csproj.CoreCompileInputs.cache
+C:\Users\Hp\source\repos\Nadir_Kitap\Nadir_Kitap\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Hp\source\repos\Nadir_Kitap\Nadir_Kitap\obj\Debug\netstandard2.0\Nadir_Kitap.dll
+C:\Users\Hp\source\repos\Nadir_Kitap\Nadir_Kitap\obj\Debug\netstandard2.0\refint\Nadir_Kitap.dll
+C:\Users\Hp\source\repos\Nadir_Kitap\Nadir_Kitap\obj\Debug\netstandard2.0\Nadir_Kitap.pdb
+C:\Users\Hp\source\repos\Nadir_Kitap\Nadir_Kitap\obj\Debug\netstandard2.0\ref\Nadir_Kitap.dll
+C:\Users\Hp\source\repos\Nadir_Kitap\Nadir_Kitap\obj\Debug\netstandard2.0\TabPage.xaml.g.cs
