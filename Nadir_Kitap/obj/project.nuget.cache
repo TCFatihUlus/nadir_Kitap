@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "xxztrlHtped1tUwPAWLe91uBoiXob+A8WMtIhNwffrxaMnmRfeywVwMM3t1PGjiWkGiokciiZMhOCFHVR5rTNg==",
+  "dgSpecHash": "LDOKmabvqodEuFlUWsqryBp/eKmScSluj6yhuzdrwNsXhzPY7hM/wJWkjQaoF8d1pJN+W8URHa6uRRBEoN+h8Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Hp\\nadir_Kitap\\Nadir__Kitap\\Nadir_Kitap.csproj",
+  "projectFilePath": "C:\\Users\\Hp\\source\\repos\\Nadir_Kitap\\Nadir_Kitap\\Nadir_Kitap.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Hp\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\Hp\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",

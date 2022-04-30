@@ -9051,11 +9051,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Hp\\NadirKitap\\Nadir_Kitap.UWP\\Nadir_Kitap.UWP.csproj",
+      "projectUniqueName": "C:\\Users\\Hp\\source\\repos\\Nadir_Kitap\\Nadir_Kitap.UWP\\Nadir_Kitap.UWP.csproj",
       "projectName": "Nadir_Kitap.UWP",
-      "projectPath": "C:\\Users\\Hp\\NadirKitap\\Nadir_Kitap.UWP\\Nadir_Kitap.UWP.csproj",
+      "projectPath": "C:\\Users\\Hp\\source\\repos\\Nadir_Kitap\\Nadir_Kitap.UWP\\Nadir_Kitap.UWP.csproj",
       "packagesPath": "C:\\Users\\Hp\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Hp\\NadirKitap\\Nadir_Kitap.UWP\\obj\\",
+      "outputPath": "C:\\Users\\Hp\\source\\repos\\Nadir_Kitap\\Nadir_Kitap.UWP\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -9063,6 +9063,7 @@
         "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\"
       ],
       "configFilePaths": [
+        "C:\\Users\\Hp\\source\\repos\\NuGet.Config",
         "C:\\Users\\Hp\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
@@ -9071,14 +9072,22 @@
         "uap10.0.16299"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {}
+        "https://api.nuget.org/v3/index.json": {},
+        "https://dotnetfeed.blob.core.windows.net/aspnet-aspnetcore/index.json": {},
+        "https://dotnetfeed.blob.core.windows.net/dotnet-core/index.json": {},
+        "https://dotnetfeed.blob.core.windows.net/dotnet-coreclr/index.json": {},
+        "https://dotnetfeed.blob.core.windows.net/dotnet-tools-internal/index.json": {},
+        "https://dotnetfeed.blob.core.windows.net/dotnet-windowsdesktop/index.json": {},
+        "https://pkgs.dev.azure.com/dnceng/public/_packaging/dotnet5-transport/nuget/v3/index.json": {},
+        "https://pkgs.dev.azure.com/dnceng/public/_packaging/dotnet5/nuget/v3/index.json": {},
+        "https://pkgs.dev.azure.com/dnceng/public/_packaging/dotnet6-transport/nuget/v3/index.json": {},
+        "https://pkgs.dev.azure.com/dnceng/public/_packaging/dotnet6/nuget/v3/index.json": {}
       },
       "frameworks": {
         "uap10.0.16299": {
           "projectReferences": {
-            "C:\\Users\\Hp\\NadirKitap\\Nadir_Kitap\\Nadir_Kitap.csproj": {
-              "projectPath": "C:\\Users\\Hp\\NadirKitap\\Nadir_Kitap\\Nadir_Kitap.csproj"
+            "C:\\Users\\Hp\\source\\repos\\Nadir_Kitap\\Nadir_Kitap\\Nadir_Kitap.csproj": {
+              "projectPath": "C:\\Users\\Hp\\source\\repos\\Nadir_Kitap\\Nadir_Kitap\\Nadir_Kitap.csproj"
             }
           }
         }

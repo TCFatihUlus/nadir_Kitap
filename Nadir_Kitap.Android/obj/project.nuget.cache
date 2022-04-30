@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+CxqxH4YkErcoUvqqAssYG7MUvsCE12/G8XVJleIDlpTvNLb5WC+6RBm6HXVaWPxoMVs4+HKEqY+QARzw7ofgw==",
+  "dgSpecHash": "RyIJmEiv7+N39UB+AFrs1iLI2Ny2aZI9Mg7/mtzgkeAWjfMWLJi3Dfd6y85qcTMXyO885zIF6N9DlAg4ubyNWQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Hp\\NadirKitap\\Nadir_Kitap.Android\\Nadir_Kitap.Android.csproj",
+  "projectFilePath": "C:\\Users\\Hp\\source\\repos\\Nadir_Kitap\\Nadir_Kitap.Android\\Nadir_Kitap.Android.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Hp\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Users\\Hp\\.nuget\\packages\\xamarin.androidx.activity\\1.2.4.1\\xamarin.androidx.activity.1.2.4.1.nupkg.sha512",

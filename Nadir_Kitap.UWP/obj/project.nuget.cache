@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "k1ZazQjRqGkGUZyNCVJLO/I5uHdZJvJ60GP6a0+mK+7G5qBqaZGq9QkSGN4cRZ6GZDis3ssBo7s2agzSAsNPjA==",
+  "dgSpecHash": "myU1ytEvDvSp+Gh34spDjN3Nq8E70O8MkpvYeN9MmKQnSXbY+aeRTRS4uOUJYOiNeqx2cHRWy7oDpCoFg+rhdA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Hp\\NadirKitap\\Nadir_Kitap.UWP\\Nadir_Kitap.UWP.csproj",
+  "projectFilePath": "C:\\Users\\Hp\\source\\repos\\Nadir_Kitap\\Nadir_Kitap.UWP\\Nadir_Kitap.UWP.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Hp\\.nuget\\packages\\microsoft.net.native.compiler\\2.2.10-rel-29722-00\\microsoft.net.native.compiler.2.2.10-rel-29722-00.nupkg.sha512",
     "C:\\Users\\Hp\\.nuget\\packages\\microsoft.net.uwpcoreruntimesdk\\2.2.12\\microsoft.net.uwpcoreruntimesdk.2.2.12.nupkg.sha512",

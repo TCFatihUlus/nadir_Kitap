@@ -1,23 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Hp\\NadirKitap\\Nadir_Kitap.Android\\Nadir_Kitap.Android.csproj": {}
+    "C:\\Users\\Hp\\source\\repos\\Nadir_Kitap\\Nadir_Kitap.Android\\Nadir_Kitap.Android.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Hp\\NadirKitap\\Nadir_Kitap.Android\\Nadir_Kitap.Android.csproj": {
+    "C:\\Users\\Hp\\source\\repos\\Nadir_Kitap\\Nadir_Kitap.Android\\Nadir_Kitap.Android.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Hp\\NadirKitap\\Nadir_Kitap.Android\\Nadir_Kitap.Android.csproj",
+        "projectUniqueName": "C:\\Users\\Hp\\source\\repos\\Nadir_Kitap\\Nadir_Kitap.Android\\Nadir_Kitap.Android.csproj",
         "projectName": "Nadir_Kitap.Android",
-        "projectPath": "C:\\Users\\Hp\\NadirKitap\\Nadir_Kitap.Android\\Nadir_Kitap.Android.csproj",
+        "projectPath": "C:\\Users\\Hp\\source\\repos\\Nadir_Kitap\\Nadir_Kitap.Android\\Nadir_Kitap.Android.csproj",
         "packagesPath": "C:\\Users\\Hp\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Hp\\NadirKitap\\Nadir_Kitap.Android\\obj\\",
+        "outputPath": "C:\\Users\\Hp\\source\\repos\\Nadir_Kitap\\Nadir_Kitap.Android\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
+          "C:\\Users\\Hp\\source\\repos\\NuGet.Config",
           "C:\\Users\\Hp\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
@@ -26,14 +27,22 @@
           "monoandroid12.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-aspnetcore/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/dotnet-core/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/dotnet-coreclr/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/dotnet-tools-internal/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/dotnet-windowsdesktop/index.json": {},
+          "https://pkgs.dev.azure.com/dnceng/public/_packaging/dotnet5-transport/nuget/v3/index.json": {},
+          "https://pkgs.dev.azure.com/dnceng/public/_packaging/dotnet5/nuget/v3/index.json": {},
+          "https://pkgs.dev.azure.com/dnceng/public/_packaging/dotnet6-transport/nuget/v3/index.json": {},
+          "https://pkgs.dev.azure.com/dnceng/public/_packaging/dotnet6/nuget/v3/index.json": {}
         },
         "frameworks": {
           "monoandroid12.0": {
             "projectReferences": {
-              "C:\\Users\\Hp\\NadirKitap\\Nadir_Kitap\\Nadir_Kitap.csproj": {
-                "projectPath": "C:\\Users\\Hp\\NadirKitap\\Nadir_Kitap\\Nadir_Kitap.csproj"
+              "C:\\Users\\Hp\\source\\repos\\Nadir_Kitap\\Nadir_Kitap\\Nadir_Kitap.csproj": {
+                "projectPath": "C:\\Users\\Hp\\source\\repos\\Nadir_Kitap\\Nadir_Kitap\\Nadir_Kitap.csproj"
               }
             }
           }
@@ -54,19 +63,20 @@
         }
       }
     },
-    "C:\\Users\\Hp\\NadirKitap\\Nadir_Kitap\\Nadir_Kitap.csproj": {
+    "C:\\Users\\Hp\\source\\repos\\Nadir_Kitap\\Nadir_Kitap\\Nadir_Kitap.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Hp\\NadirKitap\\Nadir_Kitap\\Nadir_Kitap.csproj",
+        "projectUniqueName": "C:\\Users\\Hp\\source\\repos\\Nadir_Kitap\\Nadir_Kitap\\Nadir_Kitap.csproj",
         "projectName": "Nadir_Kitap",
-        "projectPath": "C:\\Users\\Hp\\NadirKitap\\Nadir_Kitap\\Nadir_Kitap.csproj",
+        "projectPath": "C:\\Users\\Hp\\source\\repos\\Nadir_Kitap\\Nadir_Kitap\\Nadir_Kitap.csproj",
         "packagesPath": "C:\\Users\\Hp\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Hp\\NadirKitap\\Nadir_Kitap\\obj\\",
+        "outputPath": "C:\\Users\\Hp\\source\\repos\\Nadir_Kitap\\Nadir_Kitap\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
+          "C:\\Users\\Hp\\source\\repos\\NuGet.Config",
           "C:\\Users\\Hp\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
@@ -75,8 +85,16 @@
           "netstandard2.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-aspnetcore/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/dotnet-core/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/dotnet-coreclr/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/dotnet-tools-internal/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/dotnet-windowsdesktop/index.json": {},
+          "https://pkgs.dev.azure.com/dnceng/public/_packaging/dotnet5-transport/nuget/v3/index.json": {},
+          "https://pkgs.dev.azure.com/dnceng/public/_packaging/dotnet5/nuget/v3/index.json": {},
+          "https://pkgs.dev.azure.com/dnceng/public/_packaging/dotnet6-transport/nuget/v3/index.json": {},
+          "https://pkgs.dev.azure.com/dnceng/public/_packaging/dotnet6/nuget/v3/index.json": {}
         },
         "frameworks": {
           "netstandard2.0": {

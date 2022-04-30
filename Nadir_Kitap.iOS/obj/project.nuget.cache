@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "qXyUeBzWxQ7rdQHTeZDI5Llf5MNRauseTmmwgTrhzlz2hJRgNK1u8CojUeWGaVUctqCA8jTqvW951pUEhA2oAQ==",
+  "dgSpecHash": "Zf431iagTqBt03ZDyxPGpN4gaST+9pdwn2i/Px2LIDysCdM1F4qqaDdMW9FGIepOZtnJC/5ri8yvQdRQzZANmw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Hp\\NadirKitap\\Nadir_Kitap.iOS\\Nadir_Kitap.iOS.csproj",
+  "projectFilePath": "C:\\Users\\Hp\\source\\repos\\Nadir_Kitap\\Nadir_Kitap.iOS\\Nadir_Kitap.iOS.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Hp\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Users\\Hp\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
