@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:local="clr-namespace:Nadir_Kitap" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             xmlns:android="clr-namespace:Xamarin.Forms.PlatformConfiguration.AndroidSpecific;assembly=Xamarin.Forms.Core"
+             android:TabbedPage.ToolbarPlacement="Bottom"
+             x:Class="Nadir_Kitap.TabPageLogin  ">
+
+    <ContentPage Title="" Icon="baseline_home_black_24dp.png" >
+
+        <ContentPage.Content>
+            <StackLayout VerticalOptions="StartAndExpand" HorizontalOptions="Center" BackgroundColor="WhiteSmoke"
+                         Margin="0" HeightRequest="1200">
+                <Image Source="{local:ImageResource Nadir_Kitap.11096.png}"/>
+                <StackLayout VerticalOptions="StartAndExpand" Margin="0,60,0,0" HorizontalOptions="Center" WidthRequest="800" BackgroundColor="DarkRed" HeightRequest="800">
+                    <SearchBar Placeholder="Satışta olan 10.800.393 kitap içinde" HorizontalOptions="Center" VerticalOptions="Start" WidthRequest="400" FontAttributes="Italic" FontSize="Small" BackgroundColor="White" Margin="5,5,5,0" >
+                    </SearchBar>
+
+                    <StackLayout VerticalOptions="StartAndExpand" HorizontalOptions="Center" BackgroundColor="WhiteSmoke" Margin="0,0,0,0" WidthRequest="450" HeightRequest="560">
+
+                    </StackLayout>
+                    <Label Text=".Anasayfa      .Kategoriler      .Sahaflar      .Detaylı Arama" TextColor="White" VerticalOptions="StartAndExpand" HeightRequest="100"></Label>
+                    <Label Text=".Bana Özel   .Hakkımızda   .Yardım   .Bize Ulaşın   .BLOG" TextColor="White" VerticalOptions="StartAndExpand" HeightRequest="100"></Label>
+                </StackLayout>
+            </StackLayout>
+        </ContentPage.Content>
+    </ContentPage>
+
+    <ContentPage Title="" Icon="baseline_search_black_24dp.png">
+        <ContentPage.Content>
+
+            <StackLayout VerticalOptions="StartAndExpand" HorizontalOptions="Center" BackgroundColor="WhiteSmoke"
+                         Margin="0" HeightRequest="1200">
+                <Image Source="{local:ImageResource Nadir_Kitap.11096.png}"/>
+                <StackLayout VerticalOptions="StartAndExpand" Margin="0,60,0,0" HorizontalOptions="Center" WidthRequest="800" BackgroundColor="DarkRed" HeightRequest="800">
+                    <SearchBar Placeholder="Satışta olan 10.800.393 kitap içinde" HorizontalOptions="Center" VerticalOptions="Start" WidthRequest="400" FontAttributes="Italic" FontSize="Small" BackgroundColor="White" Margin="5,5,5,0" >
+                    </SearchBar>
+
+                    <StackLayout VerticalOptions="StartAndExpand" HorizontalOptions="Center" BackgroundColor="WhiteSmoke" Margin="0,0,0,0" WidthRequest="450" HeightRequest="560">
+
+                    </StackLayout>
+                    <Label Text=".Anasayfa      .Kategoriler      .Sahaflar      .Detaylı Arama" TextColor="White" VerticalOptions="StartAndExpand" HeightRequest="100"></Label>
+                    <Label Text=".Bana Özel   .Hakkımızda   .Yardım   .Bize Ulaşın   .BLOG" TextColor="White" VerticalOptions="StartAndExpand" HeightRequest="100"></Label>
+                </StackLayout>
+            </StackLayout>
+        </ContentPage.Content>
+    </ContentPage>
+
+    <ContentPage Title="" Icon="baseline_local_grocery_store_black_24dp.png">
+
+        <ContentPage.Content>
+            <StackLayout VerticalOptions="StartAndExpand" HorizontalOptions="Center" BackgroundColor="WhiteSmoke"
+                         Margin="0" HeightRequest="1200">
+                <Image Source="{local:ImageResource Nadir_Kitap.11096.png}"/>
+                <StackLayout VerticalOptions="StartAndExpand" Margin="0,60,0,0" HorizontalOptions="Center" WidthRequest="800" BackgroundColor="DarkRed" HeightRequest="530">
+                    <SearchBar Placeholder="Satışta olan 10.800.393 kitap içinde" HorizontalOptions="Center" VerticalOptions="Start" WidthRequest="400" FontAttributes="Italic" FontSize="Small" BackgroundColor="White" Margin="5,5,5,0" >
+                    </SearchBar>
+                    <StackLayout VerticalOptions="StartAndExpand" HorizontalOptions="Center" BackgroundColor="WhiteSmoke" Margin="0,0,0,0" WidthRequest="450" HeightRequest="400">
+                        <Image Source="baseline_local_grocery_store_black_24dp.png" VerticalOptions="StartAndExpand" HorizontalOptions="Center" WidthRequest="200" HeightRequest="200" Margin="0,60,0,0"></Image>
+                        <Label Text="Sepetiniz boş" VerticalOptions="StartAndExpand" HorizontalOptions="Center" Margin="0,0,0,0"></Label>
+                        <Button x:Name="Back" VerticalOptions="StartAndExpand" Text="Anasayfaya Dön" TextTransform="None" TextColor="White" BackgroundColor="DarkRed" WidthRequest="300" Margin="20,0,20,0" Clicked="Back_Clicked"></Button>
+                    </StackLayout>
+                    <Label Text=".Anasayfa      .Kategoriler      .Sahaflar      .Detaylı Arama" TextColor="White" VerticalOptions="StartAndExpand" HeightRequest="100"></Label>
+                    <Label Text=".Bana Özel   .Hakkımızda   .Yardım   .Bize Ulaşın   .BLOG" TextColor="White" VerticalOptions="StartAndExpand" HeightRequest="100"></Label>
+                </StackLayout>
+            </StackLayout>
+        </ContentPage.Content>
+    </ContentPage>
+
+    <ContentPage Title="" Icon="baseline_person_black_24dp.png">
+
+
+        <ContentPage.Content>
+
+            <StackLayout VerticalOptions="StartAndExpand" HorizontalOptions="Center" BackgroundColor="WhiteSmoke"
+                         Margin="0,0,0,0" HeightRequest="1200">
+                <Image Source="{local:ImageResource Nadir_Kitap.11096.png}"/>
+
+                <StackLayout VerticalOptions="StartAndExpand"
+                             BackgroundColor="DarkRed" Margin="0, 60,0,0" HeightRequest="800">
+                    <SearchBar Placeholder="Satışta olan 10.800.393 kitap içinde" HorizontalOptions="Center" VerticalOptions="Start" WidthRequest="400" FontAttributes="Italic" FontSize="Small" BackgroundColor="White" Margin="5,5,5,0" >
+                    </SearchBar>
+
+                    <StackLayout VerticalOptions="StartAndExpand" HorizontalOptions="Center" BackgroundColor="WhiteSmoke" Margin="0,0,0,0" WidthRequest="450" HeightRequest="560">
+                        <Label Text="Bana Özel" TextColor="Black" VerticalOptions="StartAndExpand" HorizontalOptions="StartAndExpand" FontAttributes="Bold"></Label>
+                        <ListView x:Name="listView" ItemsSource="{Binding .}" ></ListView>
+
+                   
+                    </StackLayout>
+                    <Label Text=".Anasayfa      .Kategoriler      .Sahaflar      .Detaylı Arama" TextColor="White" VerticalOptions="StartAndExpand" HeightRequest="100"></Label>
+                    <Label Text=".Bana Özel   .Hakkımızda   .Yardım   .Bize Ulaşın   .BLOG" TextColor="White" VerticalOptions="StartAndExpand" HeightRequest="100"></Label>
+                </StackLayout>
+
+            </StackLayout>
+        </ContentPage.Content>
+    </ContentPage>
+
+</TabbedPage>
