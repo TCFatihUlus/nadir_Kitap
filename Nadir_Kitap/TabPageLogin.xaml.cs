@@ -12,10 +12,35 @@ namespace Nadir_Kitap
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class TabPageLogin : TabbedPage
     {
+        
         public TabPageLogin()
         {
             InitializeComponent();
-            this.BindingContext = new[] { "Mesajlarım", "Siparişlerim", "Sepetim", "İzlediklerim", "Hesabım", "Favorilerim", "Çıkış" };
+            List<Settings> settings = new List<Settings>();
+            settings.Add(new Settings { Name = "Mesajlarım" });
+            settings.Add(new Settings { Name = "Siparişlerim" });
+            settings.Add(new Settings { Name = "Sepetim" });
+            settings.Add(new Settings { Name = "İzlediklerim" });
+            settings.Add(new Settings { Name = "Hesabım" });
+            settings.Add(new Settings { Name = "Favorilerim" });
+            settings.Add(new Settings { Name = "Çıkış" });
+            listView.ItemsSource = settings;
+            listView.ItemSelected += Clicked_Settings;
+            
+            
         }
+        async void Clicked_Settings(object sender, SelectedItemChangedEventArgs e)
+        {
+            var clickedname = ((Settings)listView.SelectedItem).Name;
+            if (clickedname =="Çıkış")
+            {
+                await Navigation.PushModalAsync(new TabPage());
+            }
+            else if(clickedname == "Sepetim")
+            {
+                await Navigation.PushModalAsync(new ShoppingCartPage());
+            }
+        }
+
     }
 }

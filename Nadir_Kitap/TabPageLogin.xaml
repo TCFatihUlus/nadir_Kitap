@@ -77,15 +77,21 @@
                 <Image Source="{local:ImageResource Nadir_Kitap.11096.png}"/>
 
                 <StackLayout VerticalOptions="StartAndExpand"
-                             BackgroundColor="DarkRed" Margin="0, 60,0,0" HeightRequest="800">
+                             BackgroundColor="DarkRed" Margin="0, 60,0,120" HeightRequest="620">
                     <SearchBar Placeholder="Satışta olan 10.800.393 kitap içinde" HorizontalOptions="Center" VerticalOptions="Start" WidthRequest="400" FontAttributes="Italic" FontSize="Small" BackgroundColor="White" Margin="5,5,5,0" >
                     </SearchBar>
 
                     <StackLayout VerticalOptions="StartAndExpand" HorizontalOptions="Center" BackgroundColor="WhiteSmoke" Margin="0,0,0,0" WidthRequest="450" HeightRequest="560">
                         <Label Text="Bana Özel" TextColor="Black" VerticalOptions="StartAndExpand" HorizontalOptions="StartAndExpand" FontAttributes="Bold"></Label>
-                        <ListView x:Name="listView" ItemsSource="{Binding .}" ></ListView>
-
-                   
+                        <ListView x:Name="listView">
+                            <ListView.ItemTemplate>
+                                <DataTemplate>
+                                    <ImageCell Text="{Binding Name}">
+                                        
+                                    </ImageCell>
+                                </DataTemplate>
+                            </ListView.ItemTemplate>
+                        </ListView>                   
                     </StackLayout>
                     <Label Text=".Anasayfa      .Kategoriler      .Sahaflar      .Detaylı Arama" TextColor="White" VerticalOptions="StartAndExpand" HeightRequest="100"></Label>
                     <Label Text=".Bana Özel   .Hakkımızda   .Yardım   .Bize Ulaşın   .BLOG" TextColor="White" VerticalOptions="StartAndExpand" HeightRequest="100"></Label>

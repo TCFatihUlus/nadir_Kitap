@@ -14,3 +14,4 @@ C:\Users\Hp\source\repos\Nadir_Kitap\Nadir_Kitap\obj\Debug\netstandard2.0\Nadir_
 C:\Users\Hp\source\repos\Nadir_Kitap\Nadir_Kitap\obj\Debug\netstandard2.0\ref\Nadir_Kitap.dll
 C:\Users\Hp\source\repos\Nadir_Kitap\Nadir_Kitap\obj\Debug\netstandard2.0\TabPage.xaml.g.cs
 C:\Users\Hp\source\repos\Nadir_Kitap\Nadir_Kitap\obj\Debug\netstandard2.0\TabPageLogin.xaml.g.cs
+C:\Users\Hp\source\repos\Nadir_Kitap\Nadir_Kitap\obj\Debug\netstandard2.0\ShoppingCartPage.xaml.g.cs
