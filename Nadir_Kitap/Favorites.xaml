@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Nadir_Kitap.Favorites">
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="WhiteSmoke" VerticalOptions="StartAndExpand" HorizontalOptions="Center" Margin="0"  HeightRequest="1200">
+            <Image Source="11096.png"/>
+            <StackLayout VerticalOptions="StartAndExpand" Margin="0,60,0,0" HorizontalOptions="Center" WidthRequest="450" BackgroundColor="DarkRed" HeightRequest="750">
+                <SearchBar Placeholder="Satışta olan 10.800.393 kitap içinde" HorizontalOptions="Center" VerticalOptions="Start" WidthRequest="400" FontAttributes="Italic" FontSize="Small" BackgroundColor="White" Margin="5,5,5,0" >
+                </SearchBar>
+                <StackLayout VerticalOptions="StartAndExpand" HorizontalOptions="Center" BackgroundColor="White" Margin="0,0,0,0" WidthRequest="450" HeightRequest="800">
+            <Label Text="Favorilerim" TextColor="Black" FontSize="Large" FontAttributes="Bold"></Label>
+            <Label Text="Favori Kategorilerim (Ekle)" TextColor="Black" BackgroundColor="WhiteSmoke" Margin="10,5,10,0" WidthRequest="400" HeightRequest="60" VerticalOptions="Center"></Label>
+            <Label Text="Favori Kitap Satıcılarım (Ekle)" TextColor="Black" BackgroundColor="WhiteSmoke" Margin="10,5,10,0" WidthRequest="400" HeightRequest="60" VerticalOptions="Center"></Label>
+
+            <StackLayout BackgroundColor="WhiteSmoke" VerticalOptions="StartAndExpand" HorizontalOptions="Center" WidthRequest="400" HeightRequest="400"
+                         Margin="10,5,10,50">
+            <Label Text="Favori Kelimelerim" TextColor="Black" BackgroundColor="WhiteSmoke" Margin="0,5,0,0" WidthRequest="350" HeightRequest="30">
+
+            </Label>
+            
+            <Entry BackgroundColor="White" WidthRequest="330" HeightRequest="50" Margin="20,0,20,0"></Entry>
+            <Grid ColumnDefinitions="1*, 1*" RowDefinitions="1*, Auto">
+                <Button Grid.Row="0" Grid.Column="0" Text="Gönder" BackgroundColor="DarkRed" TextColor="White"/>
+                <Button Grid.Row="0" Grid.Column="1" Text="Sil" BackgroundColor="DarkRed" TextColor="White"/>
+               
+            </Grid>
+                    </StackLayout>
+                </StackLayout>
+                <Label Text=".Anasayfa      .Kategoriler      .Sahaflar      .Detaylı Arama" TextColor="White" VerticalOptions="StartAndExpand" HeightRequest="100"></Label>
+                <Label Text=".Bana Özel   .Hakkımızda   .Yardım   .Bize Ulaşın   .BLOG" TextColor="White" VerticalOptions="StartAndExpand" HeightRequest="100"></Label>
+                <Label Text=".English" TextColor="White" VerticalOptions="StartAndExpand" HeightRequest="100"></Label>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

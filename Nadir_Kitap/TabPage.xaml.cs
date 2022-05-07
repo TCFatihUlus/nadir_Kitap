@@ -18,10 +18,12 @@ namespace Nadir_Kitap
 
         public TabPage()
         {
+            
             InitializeComponent();
+            
             BindingContext = this;
         }
-
+        
         private async void Back_Clicked(object sender, EventArgs e)
         {
             await Navigation.PushModalAsync(new TabPage());  

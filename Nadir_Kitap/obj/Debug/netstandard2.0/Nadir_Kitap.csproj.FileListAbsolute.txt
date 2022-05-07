@@ -15,3 +15,6 @@ C:\Users\Hp\source\repos\Nadir_Kitap\Nadir_Kitap\obj\Debug\netstandard2.0\ref\Na
 C:\Users\Hp\source\repos\Nadir_Kitap\Nadir_Kitap\obj\Debug\netstandard2.0\TabPage.xaml.g.cs
 C:\Users\Hp\source\repos\Nadir_Kitap\Nadir_Kitap\obj\Debug\netstandard2.0\TabPageLogin.xaml.g.cs
 C:\Users\Hp\source\repos\Nadir_Kitap\Nadir_Kitap\obj\Debug\netstandard2.0\ShoppingCartPage.xaml.g.cs
+C:\Users\Hp\source\repos\Nadir_Kitap\Nadir_Kitap\obj\Debug\netstandard2.0\Favorites.xaml.g.cs
+C:\Users\Hp\source\repos\Nadir_Kitap\Nadir_Kitap\obj\Debug\netstandard2.0\MessagesPage.xaml.g.cs
+C:\Users\Hp\source\repos\Nadir_Kitap\Nadir_Kitap\obj\Debug\netstandard2.0\Following.xaml.g.cs

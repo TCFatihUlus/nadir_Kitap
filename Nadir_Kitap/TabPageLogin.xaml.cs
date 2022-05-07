@@ -40,6 +40,18 @@ namespace Nadir_Kitap
             {
                 await Navigation.PushModalAsync(new ShoppingCartPage());
             }
+            else if (clickedname == "Favorilerim")
+            {
+                await Navigation.PushModalAsync(new Favorites());
+            }
+            else if (clickedname == "Mesajlarım")
+            {
+                await Navigation.PushModalAsync(new MessagesPage());
+            }
+            else if (clickedname == "İzlediklerim")
+            {
+                await Navigation.PushModalAsync(new Following());
+            }
         }
 
     }

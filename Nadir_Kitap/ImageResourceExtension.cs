@@ -8,7 +8,7 @@ using Xamarin.Forms.Xaml;
 namespace Nadir_Kitap
 {
     [ContentProperty(nameof(Source))]
-    internal class ImageResourceExtension : IMarkupExtension
+     class ImageResourceExtension : IMarkupExtension
     {
         public string Source { get; set; }
         public object ProvideValue(IServiceProvider serviceProvider)

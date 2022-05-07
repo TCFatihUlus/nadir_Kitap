@@ -10,9 +10,10 @@
                 <SearchBar Placeholder="Satışta olan 10.800.393 kitap içinde" HorizontalOptions="Center" VerticalOptions="Start" WidthRequest="400" FontAttributes="Italic" FontSize="Small" BackgroundColor="White" Margin="5,5,5,0" >
                 </SearchBar>
                 <StackLayout VerticalOptions="StartAndExpand" HorizontalOptions="Center" BackgroundColor="WhiteSmoke" Margin="0,0,0,0" WidthRequest="450" HeightRequest="400">
+                    <Label Text="Sepetim" TextColor="Black" FontSize="Large"  VerticalOptions="StartAndExpand" HorizontalOptions="StartAndExpand"></Label>
                     <Image Source="baseline_local_grocery_store_black_24dp.png" VerticalOptions="StartAndExpand" HorizontalOptions="Center" WidthRequest="200" HeightRequest="200" Margin="0,60,0,0"></Image>
                     <Label Text="Sepetiniz boş" VerticalOptions="StartAndExpand" HorizontalOptions="Center" Margin="0,0,0,0"></Label>
-                    <Button x:Name="Back" VerticalOptions="StartAndExpand" Text="Anasayfaya Dön" TextTransform="None" TextColor="White" BackgroundColor="DarkRed" WidthRequest="300" Margin="20,0,20,0" Clicked="Back2_Clicked"></Button>
+                    <Button x:Name="Back" VerticalOptions="StartAndExpand" Text="Anasayfaya Dön" TextTransform="None" TextColor="White" BackgroundColor="DarkRed" WidthRequest="300" Margin="20,0,20,0" Clicked="Back3_Clicked"></Button>
                 </StackLayout>
                 <Label Text=".Anasayfa      .Kategoriler      .Sahaflar      .Detaylı Arama" TextColor="White" VerticalOptions="StartAndExpand" HeightRequest="100"></Label>
                 <Label Text=".Bana Özel   .Hakkımızda   .Yardım   .Bize Ulaşın   .BLOG" TextColor="White" VerticalOptions="StartAndExpand" HeightRequest="100"></Label>
