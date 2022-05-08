@@ -3,9 +3,9 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Nadir_Kitap.Favorites">
     <ContentPage.Content>
-        <StackLayout BackgroundColor="WhiteSmoke" VerticalOptions="StartAndExpand" HorizontalOptions="Center" Margin="0"  HeightRequest="1200">
-            <Image Source="11096.png"/>
-            <StackLayout VerticalOptions="StartAndExpand" Margin="0,60,0,0" HorizontalOptions="Center" WidthRequest="450" BackgroundColor="DarkRed" HeightRequest="750">
+        <StackLayout BackgroundColor="White" VerticalOptions="StartAndExpand" HorizontalOptions="Center" Margin="0"  HeightRequest="1200">
+            <Image Source="images.png" HeightRequest="40"></Image>
+            <StackLayout VerticalOptions="StartAndExpand" Margin="0,0,0,0" HorizontalOptions="Center" WidthRequest="450" BackgroundColor="DarkRed" HeightRequest="750">
                 <SearchBar Placeholder="Satışta olan 10.800.393 kitap içinde" HorizontalOptions="Center" VerticalOptions="Start" WidthRequest="400" FontAttributes="Italic" FontSize="Small" BackgroundColor="White" Margin="5,5,5,0" >
                 </SearchBar>
                 <StackLayout VerticalOptions="StartAndExpand" HorizontalOptions="Center" BackgroundColor="White" Margin="0,0,0,0" WidthRequest="450" HeightRequest="800">

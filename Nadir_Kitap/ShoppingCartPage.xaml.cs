@@ -16,7 +16,7 @@ namespace Nadir_Kitap
         {
             InitializeComponent();
         }
-        private async void Back2_Clicked(object sender, EventArgs e)
+        private async void Back_Clicked(object sender, EventArgs e)
         {
             await Navigation.PushModalAsync(new TabPageLogin());
         }

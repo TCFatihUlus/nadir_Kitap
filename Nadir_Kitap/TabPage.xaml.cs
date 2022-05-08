@@ -20,8 +20,17 @@ namespace Nadir_Kitap
         {
             
             InitializeComponent();
-            
+
+            if (true)
+            {
+                someImage = "11096.png";
+            }
+            else
+            {
+                someImage = "11096.png";
+            }
             BindingContext = this;
+            
         }
         
         private async void Back_Clicked(object sender, EventArgs e)
@@ -49,6 +58,22 @@ namespace Nadir_Kitap
         private async void ProductCode_Clicked(object sender, EventArgs e)
         {
             await Navigation.PushModalAsync(new ProductCode());
+        }
+
+        public String someImage;
+        public String SomeImage
+        {
+            set
+            {
+                if (someImage != value)
+                {
+                    someImage = value;
+                }
+            }
+            get
+            {
+                return someImage;
+            }
         }
     }
    
