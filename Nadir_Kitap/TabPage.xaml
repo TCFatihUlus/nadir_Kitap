@@ -85,7 +85,7 @@
                     <SearchBar Placeholder="Satışta olan 10.800.393 kitap içinde" HorizontalOptions="Center" VerticalOptions="Start" WidthRequest="400" FontAttributes="Italic" FontSize="Small" BackgroundColor="White" Margin="5,5,5,0" >
                     </SearchBar>
 
-                    <StackLayout VerticalOptions="StartAndExpand" HorizontalOptions="Center" BackgroundColor="WhiteSmoke" Margin="0,0,0,0" WidthRequest="450" HeightRequest="510">
+                    <StackLayout VerticalOptions="StartAndExpand" HorizontalOptions="Center" BackgroundColor="WhiteSmoke" Margin="0,0,0,0" WidthRequest="450" HeightRequest="520">
 
                     
                     <Label Text="Üye Girişi" VerticalOptions="StartAndExpand" HorizontalOptions="Start" FontAttributes="Bold" TextColor="Black" FontSize="Medium" ></Label>

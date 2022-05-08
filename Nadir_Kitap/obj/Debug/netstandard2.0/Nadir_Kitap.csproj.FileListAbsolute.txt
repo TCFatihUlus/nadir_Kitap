@@ -18,3 +18,5 @@ C:\Users\Hp\source\repos\Nadir_Kitap\Nadir_Kitap\obj\Debug\netstandard2.0\Shoppi
 C:\Users\Hp\source\repos\Nadir_Kitap\Nadir_Kitap\obj\Debug\netstandard2.0\Favorites.xaml.g.cs
 C:\Users\Hp\source\repos\Nadir_Kitap\Nadir_Kitap\obj\Debug\netstandard2.0\MessagesPage.xaml.g.cs
 C:\Users\Hp\source\repos\Nadir_Kitap\Nadir_Kitap\obj\Debug\netstandard2.0\Following.xaml.g.cs
+C:\Users\Hp\source\repos\Nadir_Kitap\Nadir_Kitap\obj\Debug\netstandard2.0\AccountPage.xaml.g.cs
+C:\Users\Hp\source\repos\Nadir_Kitap\Nadir_Kitap\obj\Debug\netstandard2.0\Orders.xaml.g.cs

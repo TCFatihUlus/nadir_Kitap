@@ -32,11 +32,11 @@ namespace Nadir_Kitap
         async void Clicked_Settings(object sender, SelectedItemChangedEventArgs e)
         {
             var clickedname = ((Settings)listView.SelectedItem).Name;
-            if (clickedname =="Çıkış")
+            if (clickedname == "Çıkış")
             {
                 await Navigation.PushModalAsync(new TabPage());
             }
-            else if(clickedname == "Sepetim")
+            else if (clickedname == "Sepetim")
             {
                 await Navigation.PushModalAsync(new ShoppingCartPage());
             }
@@ -52,7 +52,15 @@ namespace Nadir_Kitap
             {
                 await Navigation.PushModalAsync(new Following());
             }
-        }
+            else if (clickedname == "Hesabım")
+            {
+                await Navigation.PushModalAsync(new AccountPage());
+            }
+            else if (clickedname == "Siparişlerim")
+            {
+                await Navigation.PushModalAsync(new Orders());
+            }
 
+        }
     }
 }
