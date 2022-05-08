@@ -1,0 +1,1 @@
+C:\Users\Hp\source\repos\Nadir_Kitap\Nadir_Kitap.UWP\Nadir_Kitap.UWP.csproj;x64

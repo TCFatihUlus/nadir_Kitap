@@ -26,7 +26,7 @@
                         <Entry Text="05399471046" BackgroundColor="White" WidthRequest="300" Margin="10,0,10,0"></Entry>
 
                     </StackLayout>
-                    
+                    <Button Text="Gönder" TextColor="White" TextTransform="None" BackgroundColor="DarkRed" Margin="10,0,0,5" VerticalOptions="Center" HorizontalOptions="StartAndExpand" WidthRequest="150" HeightRequest="40"></Button>
                 </StackLayout>
                 <Label Text=".Anasayfa      .Kategoriler      .Sahaflar      .Detaylı Arama" TextColor="White" VerticalOptions="StartAndExpand" HeightRequest="100"></Label>
                 <Label Text=".Bana Özel   .Hakkımızda   .Yardım   .Bize Ulaşın   .BLOG" TextColor="White" VerticalOptions="StartAndExpand" HeightRequest="100"></Label>

@@ -20,3 +20,7 @@ C:\Users\Hp\source\repos\Nadir_Kitap\Nadir_Kitap\obj\Debug\netstandard2.0\Messag
 C:\Users\Hp\source\repos\Nadir_Kitap\Nadir_Kitap\obj\Debug\netstandard2.0\Following.xaml.g.cs
 C:\Users\Hp\source\repos\Nadir_Kitap\Nadir_Kitap\obj\Debug\netstandard2.0\AccountPage.xaml.g.cs
 C:\Users\Hp\source\repos\Nadir_Kitap\Nadir_Kitap\obj\Debug\netstandard2.0\Orders.xaml.g.cs
+C:\Users\Hp\source\repos\Nadir_Kitap\Nadir_Kitap\obj\Debug\netstandard2.0\Book.xaml.g.cs
+C:\Users\Hp\source\repos\Nadir_Kitap\Nadir_Kitap\obj\Debug\netstandard2.0\Periodical.xaml.g.cs
+C:\Users\Hp\source\repos\Nadir_Kitap\Nadir_Kitap\obj\Debug\netstandard2.0\ArtCollection.xaml.g.cs
+C:\Users\Hp\source\repos\Nadir_Kitap\Nadir_Kitap\obj\Debug\netstandard2.0\ProductCode.xaml.g.cs
