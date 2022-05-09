@@ -7,11 +7,23 @@
         <StackLayout VerticalOptions="StartAndExpand" HorizontalOptions="Center" BackgroundColor="White"
                          Margin="0,0,0,0" HeightRequest="1200">
             <Image Source="images.png" HeightRequest="40"></Image>
-            <StackLayout VerticalOptions="StartAndExpand" Margin="0,0,0,0" HorizontalOptions="Center" WidthRequest="800" BackgroundColor="DarkRed" HeightRequest="800">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"></ColumnDefinition>
+                    <ColumnDefinition Width="*"></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+                <Button Grid.Row="0" Grid.Column="0" Text="Kategoriler                  >" TextTransform="None" TextColor="Black" HeightRequest="40" BackgroundColor="White"></Button>
+                <Button Grid.Row="0" Grid.Column="1" Text="Kitap Satıcıları                 >" TextTransform="None" TextColor="Black" HeightRequest="40" BackgroundColor="White"></Button>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"></RowDefinition>
+                </Grid.RowDefinitions>
+            </Grid>
+
+            <StackLayout VerticalOptions="StartAndExpand" Margin="0,0,0,0" HorizontalOptions="Center" WidthRequest="800" BackgroundColor="DarkRed" HeightRequest="690">
                 <SearchBar Placeholder="Satışta olan 10.800.393 kitap içinde" HorizontalOptions="Center" VerticalOptions="Start" WidthRequest="400" FontAttributes="Italic" FontSize="Small" BackgroundColor="White" Margin="5,5,5,0" >
                 </SearchBar>
 
-                <StackLayout VerticalOptions="StartAndExpand" HorizontalOptions="Center" BackgroundColor="White" Margin="0,0,0,0" WidthRequest="450" HeightRequest="580">
+                <StackLayout VerticalOptions="StartAndExpand" HorizontalOptions="Center" BackgroundColor="White" Margin="0,0,0,0" WidthRequest="450" HeightRequest="550">
                     <Label Text="Kitap, Dergi ve Sanat/Koleksiyon'da Ara" TextColor="Black" FontSize="Large"></Label>
                     <StackLayout BackgroundColor="WhiteSmoke" VerticalOptions="StartAndExpand" HorizontalOptions="Center" HeightRequest="120" WidthRequest="380" Margin="10,0,10,0">
                         <Button Text="Kitap" TextColor="DarkRed" TextTransform="None" BackgroundColor="WhiteSmoke" WidthRequest="380" HeightRequest="25" Margin="10,0,10,0" Padding="0,0,300,0" Clicked="Book_Clicked"></Button>

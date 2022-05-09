@@ -660,3 +660,5 @@ C:\Users\Hp\source\repos\Nadir_Kitap\Nadir_Kitap.Android\obj\Debug\120\res\drawa
 C:\Users\Hp\source\repos\Nadir_Kitap\Nadir_Kitap.Android\obj\Debug\120\res\drawable\baseline_person_black_24dp.png
 C:\Users\Hp\source\repos\Nadir_Kitap\Nadir_Kitap.Android\obj\Debug\120\res\drawable\images.png
 C:\Users\Hp\source\repos\Nadir_Kitap\Nadir_Kitap.Android\obj\Debug\120\res\drawable\sepet.png
+C:\Users\Hp\source\repos\Nadir_Kitap\Nadir_Kitap.Android\obj\Debug\120\res\drawable\ss.png
+C:\Users\Hp\source\repos\Nadir_Kitap\Nadir_Kitap.Android\obj\Debug\120\res\drawable\ss2.png

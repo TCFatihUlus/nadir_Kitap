@@ -18,11 +18,22 @@
         <StackLayout VerticalOptions="StartAndExpand" HorizontalOptions="Center" BackgroundColor="White"
                          Margin="0" HeightRequest="1200">
             <Image Source="images.png" HeightRequest="40"></Image>
-            <StackLayout VerticalOptions="StartAndExpand" Margin="0,0,0,0" HorizontalOptions="Center" WidthRequest="800" BackgroundColor="DarkRed" HeightRequest="800">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"></ColumnDefinition>
+                    <ColumnDefinition Width="*"></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+                <Button Grid.Row="0" Grid.Column="0" Text="Kategoriler                  >" TextTransform="None" TextColor="Black" HeightRequest="40" BackgroundColor="White"></Button>
+                <Button Grid.Row="0" Grid.Column="1" Text="Kitap Satıcıları                 >" TextTransform="None" TextColor="Black" HeightRequest="40" BackgroundColor="White"></Button>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"></RowDefinition>
+                </Grid.RowDefinitions>
+            </Grid>
+            <StackLayout VerticalOptions="StartAndExpand" Margin="0,0,0,0" HorizontalOptions="Center" WidthRequest="800" BackgroundColor="DarkRed" HeightRequest="550">
                 <SearchBar Placeholder="Satışta olan 10.800.393 kitap içinde" HorizontalOptions="Center" VerticalOptions="Start" WidthRequest="400" FontAttributes="Italic" FontSize="Small" BackgroundColor="White" Margin="5,5,5,0" >
                 </SearchBar>
 
-                <StackLayout VerticalOptions="StartAndExpand" HorizontalOptions="Center" BackgroundColor="White" Margin="0,0,0,0" WidthRequest="450" HeightRequest="540">
+                <StackLayout VerticalOptions="StartAndExpand" HorizontalOptions="Center" BackgroundColor="White" Margin="0,0,0,0" WidthRequest="450" HeightRequest="650">
                     <Label Text="Mesajlarım" TextColor="Black" FontSize="Large" FontAttributes="Bold"></Label>
                     <Grid ColumnDefinitions="1*, 1*" RowDefinitions="1*, Auto">
                         <Button Grid.Row="0" Grid.Column="0" Text="Gelen Mesajlarım" BackgroundColor="WhiteSmoke" TextColor="Black" Margin="0,20,0,0" TextTransform="None"/>
