@@ -662,3 +662,11 @@ C:\Users\Hp\source\repos\Nadir_Kitap\Nadir_Kitap.Android\obj\Debug\120\res\drawa
 C:\Users\Hp\source\repos\Nadir_Kitap\Nadir_Kitap.Android\obj\Debug\120\res\drawable\sepet.png
 C:\Users\Hp\source\repos\Nadir_Kitap\Nadir_Kitap.Android\obj\Debug\120\res\drawable\ss.png
 C:\Users\Hp\source\repos\Nadir_Kitap\Nadir_Kitap.Android\obj\Debug\120\res\drawable\ss2.png
+C:\Users\Hp\source\repos\Nadir_Kitap\Nadir_Kitap.Android\obj\Debug\120\res\drawable\s91.jpg
+C:\Users\Hp\source\repos\Nadir_Kitap\Nadir_Kitap.Android\obj\Debug\120\res\drawable\s92.jpg
+C:\Users\Hp\source\repos\Nadir_Kitap\Nadir_Kitap.Android\obj\Debug\120\res\drawable\s93.jpg
+C:\Users\Hp\source\repos\Nadir_Kitap\Nadir_Kitap.Android\obj\Debug\120\res\drawable\s94.jpg
+C:\Users\Hp\source\repos\Nadir_Kitap\Nadir_Kitap.Android\obj\Debug\120\res\drawable\s95.jpg
+C:\Users\Hp\source\repos\Nadir_Kitap\Nadir_Kitap.Android\obj\Debug\120\res\drawable\s96.jpg
+C:\Users\Hp\source\repos\Nadir_Kitap\Nadir_Kitap.Android\obj\Debug\120\res\drawable\s97.jpg
+C:\Users\Hp\source\repos\Nadir_Kitap\Nadir_Kitap.Android\obj\Debug\120\res\drawable\s98.jpg

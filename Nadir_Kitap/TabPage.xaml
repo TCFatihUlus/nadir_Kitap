@@ -32,7 +32,20 @@
                     <StackLayout VerticalOptions="StartAndExpand" HorizontalOptions="Center" BackgroundColor="White" Margin="0,0,0,0" WidthRequest="450" HeightRequest="476">
                         
                         <Image Source="SS.png"></Image>
-   
+                        <Grid VerticalOptions="CenterAndExpand" RowDefinitions="350,Auto">
+                            <CarouselView Margin="0" IsBounceEnabled="True" ItemsSource="{Binding ImageCollection}" IndicatorView="indicatorView">
+                                <CarouselView.ItemTemplate>
+                                    <DataTemplate>
+                                        <Grid HorizontalOptions="FillAndExpand">
+                                            <Image Source="{Binding _Image}" Aspect="AspectFill" HorizontalOptions="FillAndExpand">
+                                                
+                                            </Image></Grid>
+                                    </DataTemplate>
+                                </CarouselView.ItemTemplate>
+                            </CarouselView>
+                            <IndicatorView IndicatorColor="Gray" SelectedIndicatorColor="#a32e9a" Grid.Row="1" VerticalOptions="EndAndExpand" HorizontalOptions="Center" x:Name="indicatorView"></IndicatorView>
+                        </Grid>
+
                     </StackLayout>
                     <Label Text=".Anasayfa      .Kategoriler      .Sahaflar      .Detaylı Arama" TextColor="White" VerticalOptions="StartAndExpand" HeightRequest="100"></Label>
                     <Label Text=".Bana Özel   .Hakkımızda   .Yardım   .Bize Ulaşın   .BLOG" TextColor="White" VerticalOptions="StartAndExpand" HeightRequest="100"></Label>

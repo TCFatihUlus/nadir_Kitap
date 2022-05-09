@@ -1,6 +1,7 @@
 ﻿
 using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -13,24 +14,42 @@ namespace Nadir_Kitap
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class TabPage : TabbedPage
+       
     {
+        public class ImageInformation
+        {
+            public ImageSource _Image { get; set; }
+        }
+        private ObservableCollection<ImageInformation> imageCollection;
+        private ObservableCollection<ImageInformation> ImageCollection
+        {
+            get { return imageCollection; }
+            set { imageCollection = value;
+            OnPropertyChanged();
+            }
+
+        }
         public ICommand TapCommand => new Command<string>(async (url) => await Launcher.OpenAsync(url));
 
         public TabPage()
         {
             
             InitializeComponent();
-
-            if (true)
-            {
-                someImage = "11096.png";
-            }
-            else
-            {
-                someImage = "11096.png";
-            }
             BindingContext = this;
+            ImageCollection = new ObservableCollection<ImageInformation>
+            {
+                new ImageInformation{_Image="s91.jpg"},
+                new ImageInformation{_Image="s92.jpg"},
+                new ImageInformation{_Image="s93.jpg"},
+                new ImageInformation{_Image="s94.jpg"},
+                new ImageInformation{_Image="s95.jpg"},
+                new ImageInformation{_Image="s96.jpg"},
+                new ImageInformation{_Image="s97.jpg"},
+                new ImageInformation{_Image="s98.jpg"},
+            };
+
             
+
         }
         
         private async void Back_Clicked(object sender, EventArgs e)
@@ -60,21 +79,7 @@ namespace Nadir_Kitap
             await Navigation.PushModalAsync(new ProductCode());
         }
 
-        public String someImage;
-        public String SomeImage
-        {
-            set
-            {
-                if (someImage != value)
-                {
-                    someImage = value;
-                }
-            }
-            get
-            {
-                return someImage;
-            }
-        }
+       
     }
    
 }
